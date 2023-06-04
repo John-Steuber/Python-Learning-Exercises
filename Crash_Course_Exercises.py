@@ -20,7 +20,7 @@ print(diameter)
 print('The diameter of the is {} Kilometers {}'.format(planet, diameter))
 
 #QUESTION 4
-print("4. Given this nested dictionary, grab the word hello")
+print("4. Given this nested list, use indexing to grab the word hello")
 
 lst = [1, 2, [3,4], [5, [100,200, ['hello']], 23,11], 1,7]
 
@@ -80,6 +80,12 @@ def speeding(speed, is_bday):
     else:
         return 'No Ticket'
 
+#QUESTION 11
+#I did not see this question earlier
+print("11. Given this nested dictionary grab the word hello Be prepared, this will be annoying/tricky")
+
+d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}
+d['k1'][3]['tricky'][3]['target'][3]
 
 
 
